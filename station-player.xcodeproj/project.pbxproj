@@ -11,7 +11,32 @@
 		37FA3C162C7CF77000DFF578 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C152C7CF77000DFF578 /* ContentView.swift */; };
 		37FA3C182C7CF77000DFF578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FA3C172C7CF77000DFF578 /* Assets.xcassets */; };
 		37FA3C1B2C7CF77000DFF578 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FA3C1A2C7CF77000DFF578 /* Preview Assets.xcassets */; };
+		37FA3C222C7CF77C00DFF578 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C212C7CF77C00DFF578 /* Network.swift */; };
+		37FA3C242C7CFAB700DFF578 /* StationListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C232C7CFAB700DFF578 /* StationListItemView.swift */; };
+		37FA3C2A2C7CFB0A00DFF578 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C292C7CFB0A00DFF578 /* Station.swift */; };
+		37FA3C2D2C7CFB2C00DFF578 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C2C2C7CFB2C00DFF578 /* StationsViewModel.swift */; };
+		37FA3C302C7D006400DFF578 /* StationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C2F2C7D006400DFF578 /* StationResponse.swift */; };
+		37FA3C322C7D092400DFF578 /* PlaybackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C312C7D092400DFF578 /* PlaybackView.swift */; };
+		37FA3C342C7D0C8500DFF578 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C332C7D0C8500DFF578 /* PlayerViewModel.swift */; };
+		37FA3C422C7D158000DFF578 /* PlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C332C7D0C8500DFF578 /* PlayerViewModel.swift */; };
+		37FA3C442C7D158300DFF578 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C292C7CFB0A00DFF578 /* Station.swift */; };
+		37FA3C452C7D158300DFF578 /* StationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C2F2C7D006400DFF578 /* StationResponse.swift */; };
+		37FA3C472C7D161C00DFF578 /* StationModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C462C7D161C00DFF578 /* StationModelTests.swift */; };
+		37FA3C482C7D165300DFF578 /* StationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C2C2C7CFB2C00DFF578 /* StationsViewModel.swift */; };
+		37FA3C492C7D165900DFF578 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C212C7CF77C00DFF578 /* Network.swift */; };
+		37FA3C4B2C7D171A00DFF578 /* StationViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C4A2C7D171A00DFF578 /* StationViewModelTest.swift */; };
+		37FA3C4D2C7D172A00DFF578 /* PlayerViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA3C4C2C7D172A00DFF578 /* PlayerViewModelTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37FA3C3D2C7D155200DFF578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37FA3C082C7CF76F00DFF578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37FA3C0F2C7CF76F00DFF578;
+			remoteInfo = "station-player";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		37FA3C102C7CF76F00DFF578 /* station-player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "station-player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -19,10 +44,28 @@
 		37FA3C152C7CF77000DFF578 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		37FA3C172C7CF77000DFF578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37FA3C1A2C7CF77000DFF578 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		37FA3C212C7CF77C00DFF578 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		37FA3C232C7CFAB700DFF578 /* StationListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationListItemView.swift; sourceTree = "<group>"; };
+		37FA3C292C7CFB0A00DFF578 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		37FA3C2C2C7CFB2C00DFF578 /* StationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationsViewModel.swift; sourceTree = "<group>"; };
+		37FA3C2F2C7D006400DFF578 /* StationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationResponse.swift; sourceTree = "<group>"; };
+		37FA3C312C7D092400DFF578 /* PlaybackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackView.swift; sourceTree = "<group>"; };
+		37FA3C332C7D0C8500DFF578 /* PlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModel.swift; sourceTree = "<group>"; };
+		37FA3C392C7D155200DFF578 /* station-playerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "station-playerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FA3C462C7D161C00DFF578 /* StationModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationModelTests.swift; sourceTree = "<group>"; };
+		37FA3C4A2C7D171A00DFF578 /* StationViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationViewModelTest.swift; sourceTree = "<group>"; };
+		37FA3C4C2C7D172A00DFF578 /* PlayerViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		37FA3C0D2C7CF76F00DFF578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FA3C362C7D155200DFF578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -36,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				37FA3C122C7CF76F00DFF578 /* station-player */,
+				37FA3C3A2C7D155200DFF578 /* station-playerTests */,
 				37FA3C112C7CF76F00DFF578 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				37FA3C102C7CF76F00DFF578 /* station-player.app */,
+				37FA3C392C7D155200DFF578 /* station-playerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,8 +96,12 @@
 		37FA3C122C7CF76F00DFF578 /* station-player */ = {
 			isa = PBXGroup;
 			children = (
+				37FA3C282C7CFAF200DFF578 /* Managers */,
+				37FA3C272C7CFAEA00DFF578 /* Model */,
+				37FA3C262C7CFAE200DFF578 /* Screen */,
+				37FA3C2B2C7CFB1500DFF578 /* Views */,
+				37FA3C252C7CFADA00DFF578 /* ViewModel */,
 				37FA3C132C7CF76F00DFF578 /* station_playerApp.swift */,
-				37FA3C152C7CF77000DFF578 /* ContentView.swift */,
 				37FA3C172C7CF77000DFF578 /* Assets.xcassets */,
 				37FA3C192C7CF77000DFF578 /* Preview Content */,
 			);
@@ -65,6 +114,59 @@
 				37FA3C1A2C7CF77000DFF578 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		37FA3C252C7CFADA00DFF578 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				37FA3C2C2C7CFB2C00DFF578 /* StationsViewModel.swift */,
+				37FA3C332C7D0C8500DFF578 /* PlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		37FA3C262C7CFAE200DFF578 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				37FA3C152C7CF77000DFF578 /* ContentView.swift */,
+				37FA3C312C7D092400DFF578 /* PlaybackView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		37FA3C272C7CFAEA00DFF578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				37FA3C292C7CFB0A00DFF578 /* Station.swift */,
+				37FA3C2F2C7D006400DFF578 /* StationResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		37FA3C282C7CFAF200DFF578 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				37FA3C212C7CF77C00DFF578 /* Network.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		37FA3C2B2C7CFB1500DFF578 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				37FA3C232C7CFAB700DFF578 /* StationListItemView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		37FA3C3A2C7D155200DFF578 /* station-playerTests */ = {
+			isa = PBXGroup;
+			children = (
+				37FA3C462C7D161C00DFF578 /* StationModelTests.swift */,
+				37FA3C4A2C7D171A00DFF578 /* StationViewModelTest.swift */,
+				37FA3C4C2C7D172A00DFF578 /* PlayerViewModelTests.swift */,
+			);
+			path = "station-playerTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +189,24 @@
 			productReference = 37FA3C102C7CF76F00DFF578 /* station-player.app */;
 			productType = "com.apple.product-type.application";
 		};
+		37FA3C382C7D155200DFF578 /* station-playerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FA3C3F2C7D155200DFF578 /* Build configuration list for PBXNativeTarget "station-playerTests" */;
+			buildPhases = (
+				37FA3C352C7D155200DFF578 /* Sources */,
+				37FA3C362C7D155200DFF578 /* Frameworks */,
+				37FA3C372C7D155200DFF578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37FA3C3E2C7D155200DFF578 /* PBXTargetDependency */,
+			);
+			name = "station-playerTests";
+			productName = "station-playerTests";
+			productReference = 37FA3C392C7D155200DFF578 /* station-playerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +219,10 @@
 				TargetAttributes = {
 					37FA3C0F2C7CF76F00DFF578 = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					37FA3C382C7D155200DFF578 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 37FA3C0F2C7CF76F00DFF578;
 					};
 				};
 			};
@@ -116,6 +240,7 @@
 			projectRoot = "";
 			targets = (
 				37FA3C0F2C7CF76F00DFF578 /* station-player */,
+				37FA3C382C7D155200DFF578 /* station-playerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +255,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37FA3C372C7D155200DFF578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,12 +269,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37FA3C342C7D0C8500DFF578 /* PlayerViewModel.swift in Sources */,
+				37FA3C242C7CFAB700DFF578 /* StationListItemView.swift in Sources */,
+				37FA3C2A2C7CFB0A00DFF578 /* Station.swift in Sources */,
 				37FA3C162C7CF77000DFF578 /* ContentView.swift in Sources */,
+				37FA3C302C7D006400DFF578 /* StationResponse.swift in Sources */,
+				37FA3C2D2C7CFB2C00DFF578 /* StationsViewModel.swift in Sources */,
 				37FA3C142C7CF76F00DFF578 /* station_playerApp.swift in Sources */,
+				37FA3C222C7CF77C00DFF578 /* Network.swift in Sources */,
+				37FA3C322C7D092400DFF578 /* PlaybackView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37FA3C352C7D155200DFF578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37FA3C472C7D161C00DFF578 /* StationModelTests.swift in Sources */,
+				37FA3C4D2C7D172A00DFF578 /* PlayerViewModelTests.swift in Sources */,
+				37FA3C442C7D158300DFF578 /* Station.swift in Sources */,
+				37FA3C4B2C7D171A00DFF578 /* StationViewModelTest.swift in Sources */,
+				37FA3C482C7D165300DFF578 /* StationsViewModel.swift in Sources */,
+				37FA3C452C7D158300DFF578 /* StationResponse.swift in Sources */,
+				37FA3C492C7D165900DFF578 /* Network.swift in Sources */,
+				37FA3C422C7D158000DFF578 /* PlayerViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37FA3C3E2C7D155200DFF578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37FA3C0F2C7CF76F00DFF578 /* station-player */;
+			targetProxy = 37FA3C3D2C7D155200DFF578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		37FA3C1C2C7CF77000DFF578 /* Debug */ = {
@@ -320,6 +482,40 @@
 			};
 			name = Release;
 		};
+		37FA3C402C7D155200DFF578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmatiukh.station-playerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/station-player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/station-player";
+			};
+			name = Debug;
+		};
+		37FA3C412C7D155200DFF578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vmatiukh.station-playerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/station-player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/station-player";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +533,15 @@
 			buildConfigurations = (
 				37FA3C1F2C7CF77000DFF578 /* Debug */,
 				37FA3C202C7CF77000DFF578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FA3C3F2C7D155200DFF578 /* Build configuration list for PBXNativeTarget "station-playerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FA3C402C7D155200DFF578 /* Debug */,
+				37FA3C412C7D155200DFF578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

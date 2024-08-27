@@ -19,7 +19,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            List(stations) { item in
+            List(stations, id: \.uniqueID) { item in
                 
                     StationListItemView(data: .init(name: item.name,
                                                     imageURL: item.imageURL,

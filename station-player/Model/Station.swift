@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Station: Codable, Identifiable {
+struct Station: Codable {
     let id: String
     let description: String
     let name: String
@@ -30,6 +30,10 @@ struct Station: Codable, Identifiable {
     
     var popularityValue: Double {
         popularity ?? 0
+    }
+    
+    var uniqueID: String {
+        id + name + description
     }
 }
 
